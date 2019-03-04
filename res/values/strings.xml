@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UpdateUdisk</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="update_y_n">&#160;&#160;&#160;&#160;&#160;&#160;检测到本地升级文件，请确认是否已经升级过该版本，再选择升级或取消！</string>
+    <string name="yes">升&#160;&#160;&#160;&#160;级</string>
+    <string name="no">取&#160;&#160;&#160;&#160;消</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

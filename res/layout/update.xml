@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/image_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/fragment_back" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/dialog_back" >
+
+        <TextView
+            android:id="@+id/hint_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/update_y_n"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/yes_dialog"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/hint_dialog"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/setings_select_back"
+            android:text="@string/yes"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/no_dialog"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/hint_dialog"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/setings_select_back"
+            android:text="@string/no"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
